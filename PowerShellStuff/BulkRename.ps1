@@ -1,1 +1,0 @@
-Get-ChildItem -Filter oldpartofname* | Rename-Item -newname {$_.name -replace 'oldpartofname','newpartofname'}
